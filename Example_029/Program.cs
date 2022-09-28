@@ -16,17 +16,17 @@ PrintArray(array);
 sortArray(array);
 PrintArray(array);
 
-void fillArray(int[] num)
+void fillArray(int[] arr)
 {
-    for (int i=0;i<num.Length;i++)
+    for (int i=0;i<arr.Length;i++)
     {
-        array[i] = random.Next(-35,36);
+        arr[i] = random.Next(-35,36);
     }
 }
 
 void PrintArray(int[] array)
 {
-    for (int i=0;i<n;i++)
+    for (int i=0;i<array.Length;i++)
     {
         Console.Write($"{array[i]}\t");
     }
